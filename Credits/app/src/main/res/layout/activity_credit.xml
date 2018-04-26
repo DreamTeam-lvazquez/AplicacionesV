@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF0D0E0B"
+    tools:context="com.example.vazquez.credits.CreditsDhActivity">
+
+    <TextView
+        android:id="@+id/txv_name_parking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:text="Nombre del video"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/tiltle" />
+    <TextView
+        android:id="@+id/txv_direcction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Canal"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size" />
+    <TextView
+        android:id="@+id/txv_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Link"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size" />
+    <View
+        android:id="@+id/ruler"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imv_photo"
+        android:layout_marginTop="22dp"
+        android:background="@color/colorPrimary" />
+    </LinearLayout>
+
+
